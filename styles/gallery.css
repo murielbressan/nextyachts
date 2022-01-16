@@ -1,0 +1,83 @@
+body {
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+}
+nav {
+  background-color: #0000007e;
+}
+/* .container{
+	width:90%
+	margin:10px auto;
+} */
+
+/* .nav-link:hover,
+.bi-instagram:hover {
+  color: #2d846e !important;
+} */
+.navbar-toggler,
+.navbar-toggler:focus {
+  font-size: 1.5rem;
+  background-color: transparent;
+  box-shadow: none;
+}
+.portfolio-menu {
+  text-align: center;
+}
+.portfolio-menu ul li {
+  display: inline-block;
+  margin: 0;
+  list-style: none;
+  padding: 10px 15px;
+  cursor: pointer;
+  -webkit-transition: all 05s ease;
+  -moz-transition: all 05s ease;
+  -ms-transition: all 05s ease;
+  -o-transition: all 05s ease;
+  transition: all 0.5s ease;
+}
+
+.portfolio-item .item {
+  /*width:303px;*/
+  float: left;
+  margin-bottom: 10px;
+}
+
+.titleyacht {
+  font-weight: 800;
+}
+
+.buttongallery {
+  color: white;
+  border: solid 1px white;
+}
+
+.buttongallery:hover {
+  background-color: #2d846e;
+  color: rgb(155, 152, 152);
+}
+
+.activecolor,
+.nav-link:hover,
+.bi-instagram:hover {
+  color: #2d846e !important;
+}
+
+ul {
+  padding: 0 !important;
+}
+
+/*PRICES.html*/
+
+.pricetext {
+  color: #114a4b !important;
+}
+
+.margin {
+  margin-left: 5rem;
+  margin-right: 5rem;
+}
+
+.pricing4 {
+  min-height: 100vh;
+}

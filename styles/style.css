@@ -1,0 +1,281 @@
+@import url("https://fonts.googleapis.com/css2?family=Exo:wght@600&family=Montserrat:wght@300;400;500;800&display=swap");
+
+body {
+  padding: 0;
+  margin: 0;
+  background-color: #092b2c !important;
+}
+a {
+  text-decoration: none !important;
+}
+.row {
+  margin: 0 !important;
+}
+.navfont,
+.loginlogo {
+  font-size: 1.3rem;
+}
+.navbar-toggler,
+.navbar-toggler:focus {
+  font-size: 1.5rem;
+  background-color: transparent;
+  box-shadow: none;
+}
+
+.bi-water:hover {
+  color: #fbfbfb !important;
+}
+.nav-link:hover,
+.bi-instagram:hover {
+  color: #092b2c !important;
+}
+
+.logo {
+  font-family: "Exo", sans-serif;
+  color: white;
+}
+.idiomalink,
+.signup,
+.couponfont {
+  font-size: 1rem !important;
+}
+.montserrat-font,
+.bi {
+  font-family: "Montserrat", sans-serif;
+  color: white !important;
+}
+.fontweight {
+  font-weight: 400;
+}
+.letter-spacing {
+  letter-spacing: 0.5rem;
+}
+
+#background-video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+header {
+  background-image: url(../assets/img/DRAKKAR-4.webp);
+  background-size: cover;
+  height: 100vh;
+}
+.info {
+  display: block;
+  background-image: url(../assets/img/infobg2.webp);
+  background-size: cover;
+  height: fit-content;
+  padding: 2rem;
+}
+.isle-font,
+.signup {
+  font-weight: 400;
+  color: #abbdbe !important;
+}
+
+.weathertext {
+  color: #abbdbe;
+  text-shadow: 1px 1px 2px #092b2c;
+  text-decoration-line: underline !important;
+}
+
+.isle-font:hover,
+.weathertext:hover,
+.a-contactus:hover,
+.signup:hover,
+.logo:hover {
+  color: #2d846e !important;
+}
+
+.yatch-text {
+  font-weight: 800;
+  /* position: absolute; */
+}
+.gallery,
+footer {
+  align-items: center;
+  /* height: 574px;
+  margin: 0px !important; */
+}
+
+.carouselsize {
+  height: 34rem;
+}
+
+.alana,
+.drakkar {
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.247);
+}
+.alana:hover,
+.drakkar:hover {
+  text-decoration: underline;
+}
+.newsletterdiv,
+.contactus,
+footer {
+  background-color: #041212;
+}
+.subscribe {
+  top: 1rem;
+  text-align: center;
+}
+
+.contactinput {
+  height: 3rem;
+  background-color: rgba(255, 255, 255, 0.329) !important;
+  border: none !important;
+}
+::placeholder,
+.a-contactus,
+.contactinput {
+  color: white !important;
+}
+/*Autocompletar*/
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+textarea:-webkit-autofill,
+textarea:-webkit-autofill:hover,
+textarea:-webkit-autofill:focus,
+select:-webkit-autofill,
+select:-webkit-autofill:hover,
+select:-webkit-autofill:focus {
+  -webkit-text-fill-color: white;
+  -webkit-box-shadow: 0 0 0px 1000px transparent inset;
+  transition: background-color 5000s ease-in-out 0s;
+}
+/*FIN Autocompletar*/
+.submitbtn,
+.dropdown-menu {
+  background-color: #092b2c !important;
+  color: white !important;
+  border: none;
+  font-size: 1rem !important;
+  width: 6rem;
+}
+.background-dashboard {
+  background-color: #114a4b;
+}
+.submitbtn:hover {
+  color: rgb(121, 117, 117);
+  background-color: #114a4b !important;
+  border-radius: 6px;
+}
+li {
+  list-style: none;
+}
+
+.textarea {
+  height: 5vh !important;
+}
+
+h5 {
+  margin: 0 !important;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  nav {
+    background-color: #0c20207e !important;
+  }
+  .logo {
+    color: rgb(255, 255, 255) !important;
+  }
+  header {
+    background-image: url(../assets/img/img10.webp) !important;
+    background-size: cover !important;
+  }
+  .yatch-text {
+    font-weight: 800;
+  }
+  .isle-font {
+    font-size: 3rem !important;
+  }
+  .miamitext {
+    bottom: 0rem !important;
+    margin-left: 1rem;
+  }
+  .alana,
+  .drakkar {
+    font-size: 1.8rem;
+    opacity: 85%;
+  }
+
+  .gallery {
+    margin-top: 1rem !important;
+  }
+
+  header {
+    background-image: url(../assets/img/DRAKKAR-4.webp);
+    background-size: auto;
+  }
+}
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  .logo {
+    /* color: rgb(255, 255, 255) !important; */
+  }
+  .isle-font {
+    font-size: 5rem !important;
+  }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  .isle-font {
+    font-size: 3rem !important;
+  }
+  .yatch-text {
+    font-weight: 800;
+    font-size: 4rem !important;
+    opacity: 80%;
+    /* position: relative; */
+    /* bottom: 3.4rem; */
+    /* left: 1rem; */
+  }
+  /* .alana {
+    bottom: 1rem !important; 
+   
+  }
+  .drakkar {
+    bottom: 1rem;
+  }  */
+
+  .input50 {
+    width: 50% !important;
+  }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  .alana,
+  .drakkar {
+    font-size: 3rem !important;
+  }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  .alana,
+  .drakkar {
+    font-size: 4rem !important;
+  }
+}
+
+@media only screen and (min-width: 2000px) {
+  .yatch-text {
+    bottom: 8rem;
+  }
+  .alana,
+  .drakkar {
+    font-size: 6rem !important;
+  }
+  /* .drakkar {
+    bottom: 7rem;
+  } */
+}

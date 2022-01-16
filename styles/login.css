@@ -1,0 +1,58 @@
+.body {
+  background-image: url(../assets/img/DRAKKAR-3.webp);
+  background-size: cover;
+}
+
+.abs-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+.form {
+  width: 5%;
+}
+
+.forminput {
+  width: 100%;
+  outline: white;
+  background-color: transparent;
+  border: 1px solid rgb(161, 157, 157);
+  margin: 1px;
+  color: white;
+}
+[type="password"],
+[type="text"],
+[type="email"] {
+  padding: 12px 20px;
+  font-size: 1rem;
+  text-align: center;
+  outline: transparent;
+  width: 100%;
+}
+.margencheck {
+  margin-left: 1px;
+}
+[type="checkbox"]:hover {
+  outline: none;
+}
+
+.forminput:hover {
+  border-color: white;
+}
+
+.formstyle {
+  background-color: #0c2020af;
+  color: white;
+  box-shadow: 5px 5px 10px 1px rgba(0, 0, 0, 0.712);
+}
+
+.contact-form .input-text:focus {
+  outline: none;
+}
+
+::placeholder {
+  color: white !important;
+}
+
